@@ -5,8 +5,6 @@ const logger = require('morgan');
 
 const app = express();
 
-const indexRouter = require('./routes/index');
-
 app.use(cors());
 app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
