@@ -11,8 +11,6 @@ app.use(cors());
 app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// app.use('/', indexRouter);
-
 app.get('/', (req, res, next) => res.send('API-TEST-SERVER'));
 
 // single wrapper
