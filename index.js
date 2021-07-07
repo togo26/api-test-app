@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
-if (process.env.NODE_ENV === 'production') app.use(logger('combined'));
+if (process.env.NODE_ENV === 'production') app.use(logger('tiny'));
 else app.use(logger('dev'));
 
 app.get('/', (req, res, next) => res.send('API-TEST-SERVER'));
