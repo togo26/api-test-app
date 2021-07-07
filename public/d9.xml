@@ -1,5 +1,5 @@
 <VAST version="3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <Ad id="20001">
+    <Ad id="9">
         <InLine>
             <AdSystem version="4.0">iabtechlab</AdSystem>
             <AdTitle>iabtechlab video ad</AdTitle>
@@ -13,7 +13,7 @@
             <Impression id="Impression-ID">http://example.com/track/impression</Impression>
 
             <Creatives>
-                <Creative id="3000" sequence="1">
+                <Creative id="9">
                     <Linear>
                         <Duration>00:00:16</Duration>
                         <TrackingEvents>
@@ -40,7 +40,7 @@
 
                     </Linear>
                 </Creative>
-                <Creative id="3500">
+                <Creative id="9-1">
                   <CompanionAds>
                     <Companion id="2000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
                       <StaticResource creativeType="image/png">
