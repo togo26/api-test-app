@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 if (process.env.NODE_ENV === 'production') app.use(logger('tiny'));
 else app.use(logger('dev'));
 
-app.get('/', (req, res, next) => res.send('API-TEST-SERVER'));
+app.get('/', (req, res, next) => res.send('API-TEST-APP'));
 
 // single wrapper
 app.get('/inline-linear', (req, res, next) => {
