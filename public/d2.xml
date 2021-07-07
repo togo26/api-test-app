@@ -1,6 +1,6 @@
 <VAST version="3.0">
 <Ad id="2">
-  <Wrapper allowMultipleAds="true">
+  <Wrapper>
     <AdSystem version="4.0">iabtechlab</AdSystem>
     <VASTAdTagURI><![CDATA[https://api-test-server.jp.ngrok.io/d3]]></VASTAdTagURI>
     <Error>http://example.com/error</Error>
