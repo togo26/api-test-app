@@ -6,7 +6,7 @@ const logger = require('morgan');
 const app = express();
 
 app.use(cors());
-app.use(logger('dev'));
+app.use(logger('combined'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res, next) => res.send('API-TEST-SERVER'));
