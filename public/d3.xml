@@ -2,7 +2,7 @@
 <Ad id="3">
   <Wrapper>
     <AdSystem version="4.0">iabtechlab</AdSystem>
-    <VASTAdTagURI><![CDATA[https://api-test-server.jp.ngrok.io/d4]]></VASTAdTagURI>
+    <VASTAdTagURI><![CDATA[https://api-test-app.vercel.app/d4]]></VASTAdTagURI>
     <Error>http://example.com/error</Error>
     <Impression>http://example.com/track/impression</Impression>
     <Creatives>
@@ -16,7 +16,7 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
- 							<![CDATA[https://api-test-server.jp.ngrok.io/cct]]>
+ 							<![CDATA[https://api-test-app.vercel.app/cct]]>
  						</CompanionClickTracking>
           </Companion>
         </CompanionAds>
