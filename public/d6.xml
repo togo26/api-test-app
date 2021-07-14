@@ -16,8 +16,8 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
- 							<![CDATA[https://api-test-app.vercel.app/cct]]>
- 						</CompanionClickTracking>
+              <![CDATA[https://api-test-app.vercel.app/cct]]>
+            </CompanionClickTracking>
           </Companion>
         </CompanionAds>
       </Creative>
