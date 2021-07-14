@@ -2,7 +2,7 @@
 <Ad id="5">
   <Wrapper>
     <AdSystem version="4.0">iabtechlab</AdSystem>
-    <VASTAdTagURI><![CDATA[https://api-test-app.jp.ngrok.io/d6]]></VASTAdTagURI>
+    <VASTAdTagURI><![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/d6]]></VASTAdTagURI>
     <Error>http://example.com/error</Error>
     <Impression>http://example.com/track/impression</Impression>
     <Creatives>
@@ -16,7 +16,7 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
- 							<![CDATA[https://api-test-app.jp.ngrok.io/cct]]>
+ 							<![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct]]>
  						</CompanionClickTracking>
           </Companion>
         </CompanionAds>
