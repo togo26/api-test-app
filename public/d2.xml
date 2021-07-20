@@ -2,7 +2,7 @@
 <Ad id="2">
   <Wrapper>
     <AdSystem version="4.0">iabtechlab</AdSystem>
-    <VASTAdTagURI><![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/${ADCOUNT}]]></VASTAdTagURI>
+    <VASTAdTagURI><![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/d10]]></VASTAdTagURI>
     <Error>http://example.com/error</Error>
     <Impression>http://example.com/track/impression</Impression>
     <Creatives>
@@ -35,7 +35,7 @@
     </Creative>
       <Creative id="2">
         <CompanionAds>
-          <Companion id="2" width="100" height="150" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+          <Companion id="companion_6" width="100" height="150" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
             <StaticResource creativeType="image/png">
               <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
             </StaticResource>
@@ -43,9 +43,22 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
- 							<![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct]]>
- 						</CompanionClickTracking>
+ 	            <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct2/creative_2/companion_6]]>
+ 	          </CompanionClickTracking>
           </Companion>
+
+          <Companion id="companion_7" width="100" height="150" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+            <StaticResource creativeType="image/png">
+              <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+            </StaticResource>
+            <CompanionClickThrough>
+              <![CDATA[https://iabtechlab.com]]>
+            </CompanionClickThrough>
+            <CompanionClickTracking>
+ 	            <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct2/creative_2/companion_7]]>
+ 	          </CompanionClickTracking>
+          </Companion>
+
         </CompanionAds>
       </Creative>
     </Creatives>

@@ -1,5 +1,5 @@
 <VAST version="3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <Ad id="9">
+    <Ad id="10">
         <InLine>
             <AdSystem version="4.0">iabtechlab</AdSystem>
             <AdTitle>iabtechlab video ad</AdTitle>
@@ -13,7 +13,7 @@
             <Impression id="Impression-ID">http://example.com/track/impression</Impression>
 
             <Creatives>
-                <Creative id="9">
+                <Creative id="10-l">
                     <Linear>
                         <Duration>00:00:16</Duration>
                         <TrackingEvents>
@@ -40,9 +40,9 @@
 
                     </Linear>
                 </Creative>
-                <Creative id="9-1">
+                <Creative id="10-c">
                   <CompanionAds>
-                    <Companion id="2000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                    <Companion id="1000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
                       <StaticResource creativeType="image/png">
                         <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
                       </StaticResource>
@@ -50,9 +50,32 @@
                         <![CDATA[https://iabtechlab.com]]>
                       </CompanionClickThrough>
                       <CompanionClickTracking>
-                        <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct9]]>
+                        <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct10/creative_10/companion_1000]]>
                       </CompanionClickTracking>
                     </Companion>
+
+                    <Companion id="2000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                      <StaticResource creativeType="image/png">
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct10/creative_10/companion_2000]]>
+                      </CompanionClickTracking>
+                    </Companion>
+
+                    <Companion id="3000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                      <StaticResource creativeType="image/png">
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://doyi-wrapper-server-dev.ap.ngrok.io/cct10/creative_10/companion_3000]]>
+                      </CompanionClickTracking>
+                    </Companion>
+
                   </CompanionAds>
                 </Creative>
             </Creatives>
