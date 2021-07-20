@@ -16,7 +16,7 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
-              <![CDATA[https://api-test-app.jp.ngrok.io/cct]]>
+              <![CDATA[https://api-test-app.jp.ngrok.io/cct/1]]>
             </CompanionClickTracking>
           </Companion>
         </CompanionAds>
