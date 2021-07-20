@@ -8,7 +8,7 @@
     <Creatives>
       <Creative id="companion:4">
         <CompanionAds>
-          <Companion id="c:4-1" width="100" height="150" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+          <Companion id="c:4-1">
             <StaticResource creativeType="image/png">
               <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
             </StaticResource>
@@ -16,8 +16,16 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
-              <![CDATA[https://api-test-app.jp.ngrok.io/cct/4]]>
+              <![CDATA[https://api-test-app.jp.ngrok.io/cct/4/1]]>
             </CompanionClickTracking>
+          </Companion>
+          <Companion id="c:4-2 (without click tracking)">
+            <StaticResource creativeType="image/png">
+              <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+            </StaticResource>
+            <CompanionClickThrough>
+              <![CDATA[https://iabtechlab.com]]>
+            </CompanionClickThrough>
           </Companion>
         </CompanionAds>
       </Creative>

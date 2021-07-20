@@ -42,7 +42,7 @@
                 </Creative>
                 <Creative id="companion:9 (end of VAST)">
                   <CompanionAds>
-                    <Companion id="c:9-1" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                    <Companion id="c:9-1" width="500" height="500">
                       <StaticResource creativeType="image/png">
                         <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
                       </StaticResource>
@@ -50,7 +50,37 @@
                         <![CDATA[https://iabtechlab.com]]>
                       </CompanionClickThrough>
                       <CompanionClickTracking>
-                        <![CDATA[https://api-test-app.jp.ngrok.io/cct/9]]>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct/9/1]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-2" width="500" height="500">
+                      <StaticResource creativeType="image/png">
+                        <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct/9/2]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-3" width="500" height="500">
+                      <StaticResource creativeType="image/png">
+                        <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct/9/3]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-4 (malformed)">
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct/9/4]]>
                       </CompanionClickTracking>
                     </Companion>
                   </CompanionAds>
