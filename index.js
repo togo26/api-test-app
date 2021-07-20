@@ -61,6 +61,46 @@ app.get('/cct', (req, res, next) => {
   res.end();
 });
 
+app.get('/cct2', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct3', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct4', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct5', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct6', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct7', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct8', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
+app.get('/cct9', (req, res, next) => {
+  console.log('companion click tracking');
+  res.end();
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));

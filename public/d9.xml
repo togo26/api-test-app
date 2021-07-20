@@ -50,7 +50,7 @@
                         <![CDATA[https://iabtechlab.com]]>
                       </CompanionClickThrough>
                       <CompanionClickTracking>
-                        <![CDATA[https://uncn.jp/2/click/rp.e790a9d553007a4478b7191ec0fdeddc?bid=Cio2ZjY2YzY0OTc4YWNjMjc0YjQ1NjJlOTNlNDU1Y2I0YWM4MDE1MGYwXzASCEJwM0ZyaGczGghCdDBXV280YSoCSlBRLyGvyQziIUBtzczMPnUzM3M_ogEGCJLz9YUG8gEFMTIyODb4AbXlCQ&cs=265041847]]>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct8]]>
                       </CompanionClickTracking>
                     </Companion>
                   </CompanionAds>
