@@ -13,7 +13,7 @@
             <Impression id="Impression-ID">http://example.com/track/impression</Impression>
 
             <Creatives>
-                <Creative id="9">
+                <Creative id="linear:9 (end of VAST)">
                     <Linear>
                         <Duration>00:00:16</Duration>
                         <TrackingEvents>
@@ -40,9 +40,9 @@
 
                     </Linear>
                 </Creative>
-                <Creative id="9-1">
+                <Creative id="companion:9 (end of VAST)">
                   <CompanionAds>
-                    <Companion id="2000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                    <Companion id="c:9-1" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
                       <StaticResource creativeType="image/png">
                         <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
                       </StaticResource>
@@ -50,7 +50,7 @@
                         <![CDATA[https://iabtechlab.com]]>
                       </CompanionClickThrough>
                       <CompanionClickTracking>
-                        <![CDATA[https://api-test-app.jp.ngrok.io/cct8]]>
+                        <![CDATA[https://api-test-app.jp.ngrok.io/cct9]]>
                       </CompanionClickTracking>
                     </Companion>
                   </CompanionAds>
