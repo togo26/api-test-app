@@ -13,7 +13,7 @@
             <Impression id="Impression-ID">http://example.com/track/impression</Impression>
 
             <Creatives>
-                <Creative id="9">
+                <Creative id="linear:9 (end of VAST)">
                     <Linear>
                         <Duration>00:00:16</Duration>
                         <TrackingEvents>
@@ -36,13 +36,11 @@
                                 <![CDATA[https://iabtechlab.com/wp-content/uploads/2016/07/VAST-4.0-Short-Intro.mp4]]>
                             </MediaFile>
                         </MediaFiles>
-
-
                     </Linear>
                 </Creative>
-                <Creative id="9-1">
+                <Creative id="companion:9 (end of VAST)">
                   <CompanionAds>
-                    <Companion id="2000" width="500" height="500" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250">
+                    <Companion id="c:9-1" width="500" height="500">
                       <StaticResource creativeType="image/png">
                         <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
                       </StaticResource>
@@ -50,7 +48,37 @@
                         <![CDATA[https://iabtechlab.com]]>
                       </CompanionClickThrough>
                       <CompanionClickTracking>
-                        <![CDATA[https://uncn.jp/2/click/rp.e790a9d553007a4478b7191ec0fdeddc?bid=Cio2ZjY2YzY0OTc4YWNjMjc0YjQ1NjJlOTNlNDU1Y2I0YWM4MDE1MGYwXzASCEJwM0ZyaGczGghCdDBXV280YSoCSlBRLyGvyQziIUBtzczMPnUzM3M_ogEGCJLz9YUG8gEFMTIyODb4AbXlCQ&cs=265041847]]>
+                        <![CDATA[https://api-test-app.vercel.app/cct/9/1]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-2" width="500" height="500">
+                      <StaticResource creativeType="image/png">
+                        <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.vercel.app/cct/9/2]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-3" width="500" height="500">
+                      <StaticResource creativeType="image/png">
+                        <![CDATA[https://www.iab.com/wp-content/uploads/2014/09/iab-tech-lab-6-644x290.png]]>
+                      </StaticResource>
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.vercel.app/cct/9/3]]>
+                      </CompanionClickTracking>
+                    </Companion>
+                    <Companion id="c:9-4 (malformed)">
+                      <CompanionClickThrough>
+                        <![CDATA[https://iabtechlab.com]]>
+                      </CompanionClickThrough>
+                      <CompanionClickTracking>
+                        <![CDATA[https://api-test-app.vercel.app/cct/9/4]]>
                       </CompanionClickTracking>
                     </Companion>
                   </CompanionAds>

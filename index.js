@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 if (process.env.NODE_ENV === 'production') app.use(logger('tiny'));
 else app.use(logger('dev'));
 
-app.get('/', (req, res, next) => res.send('API-TEST-SERVER'));
+app.get('/', (req, res, next) => res.send('API-TEST-APP'));
 
 // single wrapper
 app.get('/inline-linear', (req, res, next) => {
@@ -55,9 +55,19 @@ app.get('/d9', (req, res, next) => {
   res.sendFile(path.join(__dirname, '/public/d9.xml'));
 });
 
-// companion click tracking test
+// companion click tracking
 app.get('/cct', (req, res, next) => {
-  console.log('companion click tracking');
+  console.log('companion click tracking', `id: none (default)`);
+  res.end();
+});
+
+app.get('/cct/:id', (req, res, next) => {
+  console.log('companion click tracking', `id: ${req.params.id}`);
+  res.end();
+});
+
+app.get('/cct/:id/:sub_id', (req, res, next) => {
+  console.log('companion click tracking', `id: ${req.params.id}-${req.params.sub_id}`);
   res.end();
 });
 
