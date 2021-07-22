@@ -2,11 +2,7 @@
 <Ad id="8">
   <Wrapper>
     <AdSystem version="4.0">iabtechlab</AdSystem>
-<<<<<<< HEAD
     <VASTAdTagURI><![CDATA[https://api-test-app.vercel.app/d9]]></VASTAdTagURI>
-=======
-    <VASTAdTagURI><![CDATA[https://api-test-app.vercel.app/d9]]></VASTAdTagURI>
->>>>>>> companion_click_tracking_in_the_wrapper
     <Error>http://example.com/error</Error>
     <Impression>http://example.com/track/impression</Impression>
     <Creatives>
@@ -20,11 +16,7 @@
               <![CDATA[https://iabtechlab.com]]>
             </CompanionClickThrough>
             <CompanionClickTracking>
-<<<<<<< HEAD
-              <![CDATA[https://api-test-app.vercel.app/cct]]>
-=======
               <![CDATA[https://api-test-app.vercel.app/cct/8]]>
->>>>>>> companion_click_tracking_in_the_wrapper
             </CompanionClickTracking>
           </Companion>
         </CompanionAds>
