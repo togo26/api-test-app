@@ -29,6 +29,9 @@
                                 <![CDATA[https://iabtechlab.com]]>
                             </ClickTracking>
                             <CustomClick>http://iabtechlab.com</CustomClick>
+                            <ClickThrough>
+                              <![CDATA[https://iabtechlab.com]]>
+                            </ClickThrough>
                         </VideoClicks>
 
                         <MediaFiles>
