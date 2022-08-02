@@ -61,6 +61,10 @@ app.get('/cct', (req, res, next) => {
   res.end();
 });
 
+// app.get('/apple-app-site-association', (req, res, next) => {
+//   res.sendFile(path.join(__dirname, '/public/apple-app-site-association'));
+// });
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));
